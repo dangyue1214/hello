@@ -51,7 +51,7 @@ function ajaxPromise(options) {
 //createDocumentFragment():创建文档碎片,是固定的写法
 var frag = document.createDocumentFragment();
 //一般真实项目中字符串拼接的方式+文档碎片的方式
-
+//wo men xiao zu bang bang da
 示列代码
 var frag = document.createDocumentFragment();
 for (var i = 0;i<100;i++){
@@ -62,4 +62,17 @@ frag.appendChild(curLi);
 //只回流一次
 document.body.appendChild(frag);
 //手动释放
+<<<<<<< HEAD
+frag = null;
+
+var arr=[];
+arr.push();
+=======
 frag = null;   
+
+张轶博到此一游 var zyb = zyb；
+>>>>>>> 049540bc00bd8b5b0c5191c6178eb937dfe93f67
+
+function () {
+	console.log("yuanjingli");
+}
