@@ -72,3 +72,7 @@ frag = null;
 
 张轶博到此一游 var zyb = zyb；
 >>>>>>> 049540bc00bd8b5b0c5191c6178eb937dfe93f67
+
+function () {
+	console.log("yuanjingli");
+}
