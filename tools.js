@@ -45,4 +45,21 @@ function ajaxPromise(options) {
         
     });
     return pro;
-}    
+} 
+
+
+//createDocumentFragment():创建文档碎片,是固定的写法
+var frag = document.createDocumentFragment();
+//一般真实项目中字符串拼接的方式+文档碎片的方式
+
+示列代码
+var frag = document.createDocumentFragment();
+for (var i = 0;i<100;i++){
+var curLi = document.createElement("li");
+curLi.innerHTML = "皮卡丘"+"丶"+i+"号";
+frag.appendChild(curLi);
+}
+//只回流一次
+document.body.appendChild(frag);
+//手动释放
+frag = null;   
