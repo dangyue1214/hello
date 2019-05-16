@@ -1,0 +1,1 @@
+window.onland=function(){}
