@@ -62,4 +62,7 @@ frag.appendChild(curLi);
 //只回流一次
 document.body.appendChild(frag);
 //手动释放
-frag = null;   
+frag = null;
+
+var arr=[];
+arr.push();
