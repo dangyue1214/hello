@@ -63,3 +63,5 @@ frag.appendChild(curLi);
 document.body.appendChild(frag);
 //手动释放
 frag = null;   
+
+张轶博到此一游 var zyb = zyb；
