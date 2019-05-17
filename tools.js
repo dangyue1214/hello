@@ -47,7 +47,7 @@ function ajaxPromise(options) {
     return pro;
 } 
 
-
+woshibeixiugaide
 //createDocumentFragment():创建文档碎片,是固定的写法
 var frag = document.createDocumentFragment();
 //一般真实项目中字符串拼接的方式+文档碎片的方式
